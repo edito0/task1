@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# internsctl - Custom Linux command for operations
+# Here I had cretaed some commands like version and help 
 
 VERSION="v0.1.0"
 
@@ -11,14 +11,13 @@ function show_help {
     echo "Options:"
     echo "  --help        Show this help message and exit"
     echo "  --version     Show version information"
-    # Add more options and descriptions as needed
 }
 
 function show_version {
     echo "internsctl version $VERSION"
 }
 
-# Parse command line arguments
+# some command according to assignment need
 case $1 in
     --help)
         show_help
