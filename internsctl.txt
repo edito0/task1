@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# internsctl - Custom Linux command for operations
+
+VERSION="v0.1.0"
+
+function show_help {
+    echo "Usage: internsctl [OPTIONS] [ARGUMENTS]"
+    echo "Custom Linux command for operations."
+    echo
+    echo "Options:"
+    echo "  --help        Show this help message and exit"
+    echo "  --version     Show version information"
+    # Add more options and descriptions as needed
+}
+
+function show_version {
+    echo "internsctl version $VERSION"
+}
+
+# Parse command line arguments
+case $1 in
+    --help)
+        show_help
+        ;;
+    --version)
+        show_version
+        ;;
+    *)
+        echo "Error: Unknown option. Use 'internsctl --help' for usage information."
+        exit 1
+        ;;
+esac

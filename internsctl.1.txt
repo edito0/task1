@@ -1,0 +1,32 @@
+.TH INTERNSCTL 1 "January 3, 2024"
+.SH NAME
+internsctl \- Custom Linux command for operations
+
+.SH SYNOPSIS
+.B internsctl
+[\fIOPTIONS\fP] [\fIARGUMENTS\fP]
+
+.SH DESCRIPTION
+Custom Linux command for operations.
+
+.SH OPTIONS
+.TP
+.B --help
+Show this help message and exit.
+
+.TP
+.B --version
+Show version information.
+
+.SH EXAMPLES
+Display version:
+.B internsctl --version
+
+.SH AUTHOR
+Written by Mohit Bagdi.
+
+.SH SEE ALSO
+info about the function of version, help and info .
+
+.SH BUGS
+Report bugs to mohitbagdi900@gmail.com
